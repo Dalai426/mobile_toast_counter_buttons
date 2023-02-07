@@ -25,25 +25,24 @@
         android:id="@+id/button_count"
         android:layout_width="131dp"
         android:layout_height="60dp"
-        android:layout_marginTop="40dp"
         android:onClick="countUp"
         android:text="@string/button_label_count"
         android:textColor="@android:color/white"
         app:backgroundTint="@color/chernill"
         app:layout_constraintEnd_toStartOf="@+id/show_count"
-        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintHorizontal_bias="0.382"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_zero" />
+        tools:layout_editor_absoluteY="282dp" />
 
     <Button
         android:id="@+id/button_zero"
         android:layout_width="131dp"
         android:layout_height="60dp"
-        android:layout_marginTop="40dp"
         android:onClick="setZero"
         android:text="@string/button_label_zero"
         android:textColor="@android:color/white"
         app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/button_count"
         app:layout_constraintEnd_toStartOf="@+id/show_count"
         app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"
